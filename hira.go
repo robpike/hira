@@ -108,7 +108,7 @@ var two = map[string]string{
 	"vi": "び",
 	"pi": "ぴ",
 	"fu": "ふ",
-	"fe":  "ふぇ",
+	"fe": "ふぇ",
 	"bu": "ぶ",
 	"pu": "ぷ",
 	"he": "へ",
