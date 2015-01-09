@@ -28,6 +28,9 @@ func do(s string) {
 		if i+3 <= len(s) {
 			cha, ok := three[s[i:i+3]]
 			if ok {
+				if i > 1 && consonants[s[i-1:i]] {
+					fmt.Printf("っ")
+				}
 				wid = 3
 				fmt.Printf("%s", cha)
 				continue
@@ -47,6 +50,9 @@ func do(s string) {
 		wid = 1
 		a, ok := one[s[i:i+1]]
 		if ok {
+			if i > 1 && consonants[s[i-1:i]] {
+				fmt.Printf("っ")
+			}
 			fmt.Printf("%s", a)
 			continue
 		}
