@@ -60,6 +60,7 @@ func do(s string) {
 	fmt.Print("\n")
 }
 
+// Note the absence of n and m.
 var consonants = map[string]bool{
 	"b": true,
 	"c": true,
@@ -81,8 +82,6 @@ var consonants = map[string]bool{
 	"y": true,
 	"z": true,
 }
-
-// note the absense of n and m
 
 var one = map[string]string{
 	"a": "あ",
