@@ -263,7 +263,8 @@ var three = map[string]string{
 	"ryo": "りょ",
 }
 
-var hiragana2romanji = map[string]string{
+// Unused.
+var hiragana2romaji = map[string]string{
 	"a": "あ",
 	"i": "い",
 	"u": "う",
