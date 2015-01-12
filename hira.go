@@ -264,7 +264,7 @@ var three = map[string]string{
 }
 
 // Unused.
-var hiragana2romaji = map[string]string{
+var romaji2hiragana = map[string]string{
 	"a": "あ",
 	"i": "い",
 	"u": "う",
